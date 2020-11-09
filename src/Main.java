@@ -23,6 +23,22 @@ public class Main {
         p.holdbarhed = new Date(1608768000);
         p.freeze();
 
+        Banana b = new Banana();
+        b.stykpris = 1.5;
+        b.holdbarhed = new Date(1608768000);
+        b.moden = true;
+        b.coolDown();
+
+        Carrot c = new Carrot();
+        c.stykpris = 2;
+        c.holdbarhed = new Date(1608768000);
+        c.freeze();
+
+        Flower f = new Flower();
+        f.stykpris = 10;
+        System.out.println(f.sort + " " + f.type);
+        f.wilt();
+
     }
 
 }
