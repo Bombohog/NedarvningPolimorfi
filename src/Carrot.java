@@ -7,6 +7,11 @@
  * Description of program
  ********************************************/
 
-public class Carrot extends Grønsag {
+public class Carrot extends Grønsag implements Konsever {
+
+    @Override
+    public void konsever() {
+        System.out.println("Guleroden fryses ned");
+    }
 
 }

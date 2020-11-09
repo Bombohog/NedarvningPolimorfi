@@ -7,8 +7,13 @@
  * Description of program
  ********************************************/
 
-public class Banana extends Frugt {
+public class Banana extends Frugt implements Konsever {
 
     boolean moden = true;
+
+    @Override
+    public void konsever() {
+        System.out.println("Bananen tørres");
+    }
 
 }

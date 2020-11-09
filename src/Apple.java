@@ -7,12 +7,16 @@ import java.util.Date;
  * 09/11/2020
  */
 
-public class Apple extends Frugt {
+public class Apple extends Frugt implements Konsever {
 
     String sort = "Golden Delicious";
     String type = "spiseæble";
     boolean moden = false;
 
 
+    @Override
+    public void konsever() {
+        System.out.println("Æblerne bliver lavet til æblemos");
+    }
 
 }

@@ -5,6 +5,11 @@
  * 09/11/2020
  */
 
-public class Peas extends Grønsag {
+public class Peas extends Grønsag implements Konsever {
+
+    @Override
+    public void konsever() {
+        System.out.println("Ærterne fryses ned");
+    }
 
 }
