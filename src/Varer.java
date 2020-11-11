@@ -17,4 +17,9 @@ public class Varer {
         kanSælges = false;
     }
 
+    @Override
+    public String toString() {
+        return getClass().getName();
+    }
+
 }

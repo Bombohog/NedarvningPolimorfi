@@ -21,7 +21,6 @@ public class Persistens {
         p.load();
     }
 
-
     public void save() {
 
         // Create a file

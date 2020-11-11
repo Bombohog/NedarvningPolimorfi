@@ -38,7 +38,7 @@ public class Lager {
     public void visVarer() {
 
         for (Varer nuværendeVare : vareLager) {
-            System.out.println(nuværendeVare);
+            System.out.println(nuværendeVare.toString());
         }
 
     }
