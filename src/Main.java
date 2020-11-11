@@ -40,10 +40,11 @@ public class Main {
         f.wilt();*/
 
         Lager lager = new Lager();
-        lager.fyldOp();
+        lager.fyldOp(10, 10, 5, 5);
+        lager.visVarer();
         System.out.println("Antal varer: " + lager.antalVarer());
         System.out.println("Antal Æbler: " + lager.antalÆbler());
-        System.out.println("Antal Flower: " + lager.antalObjekter(new Flower()));
+        System.out.println("Antal Flower: " + lager.antalObjekter( new Flower() ));
 
     }
 
