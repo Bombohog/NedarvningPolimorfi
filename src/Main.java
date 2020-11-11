@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Apple a = new Apple();
+        /*Apple a = new Apple();
         a.stykpris = 2;
         a.holdbarhed = new Date(1608768000);
         a.smidUd();
@@ -37,7 +37,13 @@ public class Main {
         Flower f = new Flower();
         f.stykpris = 10;
         System.out.println(f.sort + " " + f.type);
-        f.wilt();
+        f.wilt();*/
+
+        Lager lager = new Lager();
+        lager.fyldOp();
+        System.out.println("Antal varer: " + lager.antalVarer());
+        System.out.println("Antal Æbler: " + lager.antalÆbler());
+        System.out.println("Antal Flower: " + lager.antalObjekter(new Flower()));
 
     }
 
